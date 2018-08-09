@@ -13,6 +13,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bcrypt-ruby', '3.1.2'
+gem 'simple_form', '~> 4.0', '>= 4.0.1'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 group :development, :test do
  gem 'rspec-rails', '~> 3.6'

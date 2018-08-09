@@ -13,6 +13,8 @@ module LawyerLedger
 
     I18n.enforce_available_locales = true
 
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
